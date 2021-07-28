@@ -37,6 +37,11 @@ footer {
     box-sizing: border-box;
 }
 
+.banner {
+    max-width: 900px;
+    width: 100%;
+}
+
 .blog-listing {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

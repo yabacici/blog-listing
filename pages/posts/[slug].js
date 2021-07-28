@@ -42,7 +42,7 @@ export default function PostDetails({ post }) {
             <h2>{postName}</h2>
             <Image
                 src={"http://" + featuredImage.fields.file.url}
-                alt="text"
+                alt={"single image"}
                 width={featuredImage.fields.file.details.image.width}
                 height={featuredImage.fields.file.details.image.height}
             />

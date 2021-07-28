@@ -11,7 +11,7 @@ export default function Card({ post }) {
             <div className="featured">
                 <Image
                     src={"http://" + featuredImage.fields.file.url}
-                    alt="blog images"
+                    alt={"blog images"}
                     width={featuredImage.fields.file.details.image.width}
                     height={featuredImage.fields.file.details.image.height}
                 />
