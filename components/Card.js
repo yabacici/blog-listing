@@ -19,12 +19,9 @@ export default function Card({ post }) {
             <div className="content">
                 <div className="info">
                     <h4>{postName}</h4>
-                    {/* <p>published on {publishedDate} </p> */}
-                    {/* <p>just read {content} </p> */}
                 </div>
                 <div className="actions">
                     {/* could do a fav button here or more info */}
-                    {/* details page here */}
                     <Link href={"/posts/" + slug}>
                         <a>more info</a>
                     </Link>
