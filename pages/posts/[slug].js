@@ -48,7 +48,7 @@ export default function PostDetails({ post }) {
             />
 
             <div className="info">
-                <h3 className="content">{content}</h3>
+                <h3 className="info-box">{content}</h3>
                 <p>published on {publishedDate}</p>
             </div>
         </div>
