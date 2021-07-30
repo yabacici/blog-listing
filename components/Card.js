@@ -7,11 +7,11 @@ export default function Card({ post }) {
     const { postName, slug, featuredImage } = post.fields;
 
     return (
-        <div className="card">
+        <article className="card">
             <div className="featured">
                 <Image
                     src={"http://" + featuredImage.fields.file.url}
-                    alt={"blog images"}
+                    alt="picture of blog post"
                     width={featuredImage.fields.file.details.image.width}
                     height={featuredImage.fields.file.details.image.height}
                 />
@@ -27,6 +27,6 @@ export default function Card({ post }) {
                     </Link>
                 </div>
             </div>
-        </div>
+        </article>
     );
 }
