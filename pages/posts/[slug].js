@@ -41,7 +41,7 @@ export default function PostDetails({ post }) {
         <div className="banner">
             <h2>{postName}</h2>
             <Image
-                src={"http://" + featuredImage.fields.file.url}
+                src={"https:" + featuredImage.fields.file.url}
                 alt={"single image"}
                 width={featuredImage.fields.file.details.image.width}
                 height={featuredImage.fields.file.details.image.height}

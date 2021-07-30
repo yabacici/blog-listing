@@ -10,7 +10,7 @@ export default function Card({ post }) {
         <article className="card">
             <div className="featured">
                 <Image
-                    src={"http://" + featuredImage.fields.file.url}
+                    src={"https:" + featuredImage.fields.file.url}
                     alt="picture of blog post"
                     width={featuredImage.fields.file.details.image.width}
                     height={featuredImage.fields.file.details.image.height}
